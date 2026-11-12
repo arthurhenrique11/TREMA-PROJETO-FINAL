@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | TRAMA // DPP</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">TRAMA <span>// DPP</span></a>
+            <nav aria-label="Navegação principal">
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="catalogo.html">Peças</a></li>
+                    <li><a href="passaporte-dpp.html">Exemplo DPP</a></li>
+                    <li><a href="impacto.html">Impacto</a></li>
+                    <li><a href="marcas.html">Designers</a></li>
+                    <li><a href="tecnologia.html">Tecnologia</a></li>
+                    <li><a href="pos-consumo.html">Pós-Consumo</a></li>
+                    <li><a href="sobre.html">Manifesto</a></li>
+                    <li><a href="cadastro.html" class="btn-nav active">Cadastrar Marca</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <div class="form-wrapper">
+            <header class="form-header">
+                <h1>Solicitar Passaportes Digitais</h1>
+                <p>Preencha os dados do seu ateliê para gerar etiquetas QR dinâmicas.</p>
+            </header>
+
+            <form action="#confirmacao" class="dpp-form">
+                <fieldset>
+                    <legend>Identificação</legend>
+                    <div class="field">
+                        <label for="marca">Nome da Marca *</label>
+                        <input type="text" id="marca" required>
+                    </div>
+                </fieldset>
+                <button type="submit" class="btn-submit">Gerar Solicitação</button>
+            </form>
+
+            <div id="confirmacao" class="success-modal">
+                <h3>&#10003; Solicitação Registrada!</h3>
+                <p>Nossa equipe enviará o pacote de QR Codes para o seu e-mail.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer"><div class="container"><p>&copy; 2026 TRAMA // DPP</p></div></footer>
+</body>
+</html>

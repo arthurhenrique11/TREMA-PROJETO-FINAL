@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso ao Painel | TRAMA // DPP</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">TRAMA <span>// DPP</span></a>
+            <nav aria-label="Navegação principal">
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="catalogo.html">Peças</a></li>
+                    <li><a href="passaporte-dpp.html">Exemplo DPP</a></li>
+                    <li><a href="impacto.html">Impacto</a></li>
+                    <li><a href="marcas.html">Designers</a></li>
+                    <li><a href="tecnologia.html">Tecnologia</a></li>
+                    <li><a href="pos-consumo.html">Pós-Consumo</a></li>
+                    <li><a href="sobre.html">Manifesto</a></li>
+                    <li><a href="cadastro.html" class="btn-nav">Cadastrar Marca</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container auth-container">
+        <div class="auth-card">
+            <header class="auth-header">
+                <span class="badge">Painel de Gestão DPP</span>
+                <h1>Acesse sua Conta</h1>
+                <p>Gerencie os Passaportes Digitais das suas peças ou consulte seu histórico de consumo consciente.</p>
+            </header>
+
+            <!-- Formulário estruturado com HTML5 puro (sem JS) -->
+            <form action="index.html" method="GET" class="auth-form">
+                <div class="field">
+                    <label for="email">E-mail Profissional ou de Usuário</label>
+                    <input type="email" id="email" name="email" placeholder="seu.email@ateliemarca.com.br" required>
+                </div>
+
+                <div class="field">
+                    <div class="label-row">
+                        <label for="senha">Senha</label>
+                        <a href="#" class="forgot-link">Esqueceu a senha?</a>
+                    </div>
+                    <input type="password" id="senha" name="senha" placeholder="••••••••••••" required>
+                </div>
+
+                <div class="field-checkbox">
+                    <input type="checkbox" id="lembrar" name="lembrar">
+                    <label for="lembrar">Lembrar meus dados neste dispositivo</label>
+                </div>
+
+                <button type="submit" class="btn-submit">Entrar no Sistema</button>
+            </form>
+
+            <div class="auth-footer">
+                <p>Ainda não faz parte da rede? <a href="cadastro.html">Cadastre seu ateliê gratuitamente</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TRAMA // DPP — Ambiente Seguro de Autenticação.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+:root {
+    --bg: #F6F4EF;
+    --surface: #FFFFFF;
+    --ink: #1C241E;
+    --muted: #5A655D;
+    --accent: #2D5A3C;
+    --border: #DCD7CC;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.7; }
+.container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+
+.navbar { background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+.nav-content { display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; flex-wrap: wrap; gap: 16px; }
+.logo { font-size: 1.35rem; font-weight: 800; text-decoration: none; color: var(--ink); letter-spacing: 1px; }
+.logo span { color: var(--accent); font-weight: 400; }
+.nav-links { list-style: none; display: flex; flex-wrap: wrap; gap: 18px; align-items: center; }
+.nav-links a { text-decoration: none; color: var(--muted); font-size: 0.92rem; font-weight: 500; }
+.nav-links a:hover, .nav-links a.active { color: var(--accent); font-weight: 700; }
+.btn-nav { background: var(--accent); color: #fff !important; padding: 8px 14px; border-radius: 6px; }
+
+.page-content { padding: 56px 24px; }
+.manifesto-box { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 48px; max-width: 860px; margin: 0 auto; }
+.eyebrow { font-family: monospace; color: var(--accent); font-weight: 700; text-transform: uppercase; }
+.manifesto-box h1 { font-size: 2.3rem; margin: 12px 0 24px; }
+.manifesto-box p { font-size: 1.08rem; color: var(--muted); }
+
+.footer { background: var(--ink); color: #D5DBD7; padding: 28px 0; text-align: center; font-size: 0.9rem; margin-top: 40px; }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Rastreado | TRAMA // DPP</title>
+    <link rel="stylesheet" href="../css/catalogo.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">TRAMA <span>// DPP</span></a>
+            <nav aria-label="Navegação principal">
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="catalogo.html" class="active">Peças</a></li>
+                    <li><a href="passaporte-dpp.html">Exemplo DPP</a></li>
+                    <li><a href="impacto.html">Impacto</a></li>
+                    <li><a href="marcas.html">Designers</a></li>
+                    <li><a href="tecnologia.html">Tecnologia</a></li>
+                    <li><a href="pos-consumo.html">Pós-Consumo</a></li>
+                    <li><a href="sobre.html">Manifesto</a></li>
+                    <li><a href="cadastro.html" class="btn-nav">Cadastrar Marca</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <header class="page-header">
+            <h1>Vitrine de Peças com Passaporte Digital</h1>
+            <p>Todas as peças possuem etiqueta com QR Code Dinâmico auditado. Clique para inspecionar a cadeia produtiva.</p>
+        </header>
+
+        <section class="catalog-wrapper">
+            <input type="radio" name="filtro" id="todos" checked>
+            <input type="radio" name="filtro" id="algodao">
+            <input type="radio" name="filtro" id="linho">
+
+            <div class="filter-bar">
+                <label for="todos">Todas as Peças</label>
+                <label for="algodao">Algodão Agroecológico</label>
+                <label for="linho">Linho &amp; Cânhamo</label>
+            </div>
+
+            <div class="products-grid">
+                <article class="product-card cat-algodao">
+                    <div class="img-box">
+                        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=700&q=80" alt="Jaqueta">
+                        <span class="qr-tag">QR #TRM-8841</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="brand-name">Ateliê Sertão Vivo &bull; PB</span>
+                        <h2>Jaqueta Utilitária Borborema</h2>
+                        <ul class="specs">
+                            <li><strong>Material:</strong> 100% Algodão Orgânico</li>
+                            <li><strong>Água economizada:</strong> 2.400 Litros</li>
+                        </ul>
+                        <div class="card-footer">
+                            <span class="price">R$ 420,00</span>
+                            <a href="passaporte-dpp.html" class="btn-dpp">Abrir Passaporte &rarr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card cat-linho">
+                    <div class="img-box">
+                        <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80" alt="Camisa">
+                        <span class="qr-tag">QR #TRM-4019</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="brand-name">Estúdio Maré &bull; PE</span>
+                        <h2>Camisa Botânica de Linho</h2>
+                        <ul class="specs">
+                            <li><strong>Material:</strong> 100% Linho Belga</li>
+                            <li><strong>Tingimento:</strong> Casca de Cebola</li>
+                        </ul>
+                        <div class="card-footer">
+                            <span class="price">R$ 310,00</span>
+                            <a href="passaporte-dpp.html" class="btn-dpp">Abrir Passaporte &rarr;</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TRAMA // DPP — Todas as peças listadas possuem registro imutável.</p>
+        </div>
+    </footer>
+</body>
+</html>
